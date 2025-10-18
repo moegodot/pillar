@@ -1,0 +1,17 @@
+[project]
+name = "pillar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "moegodot-build-utilities",
+]
+
+[tool.uv.workspace]
+members = [
+    "moegodot_build_utilities",
+]
+
+[tool.uv.sources]
+moegodot-build-utilities = { workspace = true }

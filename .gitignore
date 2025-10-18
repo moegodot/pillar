@@ -1,7 +1,11 @@
 # Build directory
-build/
+out/
 
-# I personally not use vscode so:
+# remove finder's useless everywhere file
+.DS_Store
+
+# those directory include nothing as far as I know
+.vs
 .vscode/
 
 # .gitignore templates:
@@ -56,9 +60,6 @@ cmake-build-*/
 
 # File-based project format
 *.iws
-
-# IntelliJ
-out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/

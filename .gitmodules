@@ -1,0 +1,18 @@
+[submodule "3rd_library/harfbuzz"]
+	path = 3rd_library/harfbuzz
+	url = https://github.com/harfbuzz/harfbuzz
+[submodule "3rd_library/freetype"]
+	path = 3rd_library/freetype
+	url = https://github.com/freetype/freetype
+[submodule "moegodot_build_utilities"]
+	path = moegodot_build_utilities
+	url = https://github.com/moegodot/moegodot_build_utilities
+[submodule "3rd_library/zlib"]
+	path = 3rd_library/zlib
+	url = https://github.com/zlib-ng/zlib-ng/
+[submodule "3rd_library/bzip2"]
+	path = 3rd_library/bzip2
+	url = https://github.com/libarchive/bzip2
+[submodule "3rd_library/libpng"]
+	path = 3rd_library/libpng
+	url = https://github.com/pnggroup/libpng
